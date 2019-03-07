@@ -14,6 +14,11 @@ Author: Simo Vilmunen 16/12/2018
 
 */
 
+variable "tenancy_ocid" {}
+
+variable "region" {}
+
+variable "ssh_public_key" {}
 
 // ORACLE LINUX VERSION AND OS NAME
 
