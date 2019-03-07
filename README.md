@@ -27,6 +27,7 @@ Running this in OCI Resource Manager creates following resources:
 * ssh_public_key (ssh key to be used - you can find create instructions from [here](https://docs.cloud.oracle.com/iaas/Content/GSG/Tasks/creatingkeys.htm))
 6. Navigate inside stack and press *Terraform Actions -> Plan*, this usually runs 2-3 minutes
 7. If Plan succeeded without issues run *Terraform Actions -> Apply*, this creates resources and will run around 60-90 minutes
+8. Review the public IP of compute instance and the private IP's for compute and database instance. You can use the private ssh key and *opc* user to login to these instances
 
 ## Removal of stack
 
