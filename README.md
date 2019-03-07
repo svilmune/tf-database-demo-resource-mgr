@@ -56,7 +56,7 @@ To remove resources:
 
 * terraform destroy
 
-Edit main.tf provider to look:
+Edit main.tf provider:
 
 ```hcl
 provider "oci" {
@@ -67,7 +67,7 @@ provider "oci" {
   region           = "${var.region}"
 }
 ```
-Edit variables.tf to look_
+Edit variables.tf and add:
 
 ```hcl
 variable "tenancy_ocid" {} // Your tenancy's OCID
