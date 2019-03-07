@@ -31,3 +31,5 @@ Running this in OCI Resource Manager creates following resources:
 ## Additional notes
 
 You can freely change the variables in the variables.tf depending what you need. One could potentially scale down the database shape, open different ports in security list or change database version. Try and test!
+
+Thanks for [Stephen Cross](https://gist.github.com/scross01/bcd21c12b15787f3ae9d51d0d9b2df06) for the filtering of OCI images using specific OS version. 
