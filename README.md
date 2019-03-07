@@ -24,7 +24,7 @@ Running this in OCI Resource Manager creates following resources:
 5. Add following variables:
 * region (the name of region you are operating for example eu-frankfurt-1)
 * tenancy_ocid (your tenancy's OCID - from left side menu *Administration -> Tenancy Details*)
-* ssh_pulic_key (ssh key to be used - you can find create instructions from [here](https://docs.cloud.oracle.com/iaas/Content/GSG/Tasks/creatingkeys.htm))
+* ssh_public_key (ssh key to be used - you can find create instructions from [here](https://docs.cloud.oracle.com/iaas/Content/GSG/Tasks/creatingkeys.htm))
 6. Navigate inside stack and press *Terraform Actions -> Plan*, this usually runs 2-3 minutes
 7. If Plan succeeded without issues run *Terraform Actions -> Apply*, this creates resources and will run around 60-90 minutes
 
