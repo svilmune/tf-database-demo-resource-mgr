@@ -15,7 +15,7 @@ Running this in OCI Resource Manager creates following resources:
 * One compute instance with the smallest shape to act as a jump server and a 7.6 linux image - the instance public IP will be displayed in the end. 
 * One Standard Edition database with the option LICENSE_INCLUDED 
 
-## Requirements 
+## Requirements and install instructions
 
 1. Valid OCI account to install these components
 2. Download these .tf files as a zip and navigate in OCI under *Resource Manager*
@@ -27,6 +27,12 @@ Running this in OCI Resource Manager creates following resources:
 * ssh_pulic_key (ssh key to be used - you can find create instructions from [here](https://docs.cloud.oracle.com/iaas/Content/GSG/Tasks/creatingkeys.htm))
 6. Navigate inside stack and press *Terraform Actions -> Plan*, this usually runs 2-3 minutes
 7. If Plan succeeded without issues run *Terraform Actions -> Apply*, this creates resources and will run around 60-90 minutes
+
+## Removal of stack
+
+In case you want to remove created stack:
+
+* Navigate inside stack and press *Terraform Actions -> Destroy*, this will remove all the created resources
 
 ## Additional notes
 
