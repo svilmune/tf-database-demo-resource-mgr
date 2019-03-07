@@ -185,7 +185,7 @@ variable "instance_create_vnic_details_hostname_label" {
   }
   */
 variable "db_system_database_edition" {
-  default = "ENTERPRISE_EDITION"
+  default = "STANDARD_EDITION"
   } // Using Standard Edition here but can be changed to ENTERPRISE_EDITION if needed
 variable "db_system_db_home_database_admin_password" {
   default = "First1_Database2_"
@@ -213,7 +213,7 @@ variable "db_system_hostname" {
   default = "testhost"
   }
 variable "db_system_shape" {
-  default = "VM.Standard2.8"
+  default = "VM.Standard2.1"
   } // Adjust when needed with 2.2, 2.4 etc..
 
 // Optional DB system variables
